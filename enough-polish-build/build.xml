@@ -14,7 +14,7 @@
 	-->
 	<property name="update.jars" value="asm-all.jar,enough-bytecode.jar,enough-floater.jar,pim.jar,fileconnection.jar,pdaapi.jar,m2g.jar,cldc-1.0.jar,cldc-1.1.jar,midp-1.0.jar,midp-2.0.jar,blackberry-4.0.jar,svgSalamander.jar,doja-1.5.jar,doja-2.5.jar,location.jar" />
 	
-	<property name="izpack.dir" value="C:/Program Files/IzPack" />
+	<property name="izpack.dir" value="/home/enough/dev/IzPack" />
 	<property name="polish.home" location="."/>
 	<property name="wtk.home" value="/home/enough/dev/WTK2.2" />
 	<property name="preverify.cmd" value="${wtk.home}/bin/preverify" />
