@@ -1995,7 +1995,7 @@ implements Choice
 					//addCommand( MARK_COMMAND );
 					//addCommand( UNMARK_COMMAND );
 				//#endif
-			} else if (this.choiceType == Choice.EXCLUSIVE){
+			} else if (this.choiceType == Choice.EXCLUSIVE || this.choiceType == Choice.POPUP){
 				//#if !tmp.suppressSelectCommand
 					//#if tmp.supportViewType
 						if (this.containerView == null) {
